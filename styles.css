@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fffafa;
+}
+
+.wrapper {
+  margin: 0 auto;
+
+  padding: 40px;
+}
+.todo__title {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.todo__text {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.todo__list {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.todo__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.todo__item--main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+}
+.todo__item--text {
+  font-size: 40px;
+}
+.todo__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-top: 2px solid #f0ffff;
+}
+.todo__descr {
+}
+.todo__descr--done {
+  color: #ced4da;
+  text-decoration: line-through;
+}
+.todo__controls {
+  display: flex;
+}
+.todo__btn {
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+  padding: 10px;
+  border-radius: 10px;
+}
+.todo__btn img {
+  pointer-events: none;
+}
+.todo__btn:hover,
+.todo__btn:focus {
+  background-color: #6495ed;
+}
+.todo__btn:not(:last-child) {
+  margin-right: 5px;
+}
+.todo__add {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.todo__form--wrapper {
+  padding: 15px;
+  background-color: #fff;
+}
+.todo__form {
+}
+.todo__input {
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.todo__input:hover,
+.todo__input:focus {
+  outline: 2px solid #6495ed;
+}
+.todo__submit {
+  padding: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #6495ed;
+  font-size: 24px;
+}
+.todo__submit:hover,
+.todo__submit:focus {
+  color: white;
+}
+.todo__input--text {
+  margin-bottom: 15px;
+}
+.none {
+  display: none;
+}
